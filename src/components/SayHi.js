@@ -1,14 +1,22 @@
-import React from 'react'
-
-
-const SayHi= ()=>{
+import React from "react"
+import App from "../App";
+//arrow function
+const SayHi = () =>{
     return(
         <div>
-            <p>Hello!</p>
-            <p> Dear</p>
+        <h1> Hello React! </h1>
+        <h3> I am learning React</h3>
         </div>
-    )
+        );
+
 }
-export default SayHi
-//rfc short way 
-//rafc
+/*
+function SayHi() {
+    return(
+        <div>
+        <h1> Hello React! </h1>
+        <h3> I am learning React</h3>
+        </div>
+        );
+        }*/
+        export default App;
