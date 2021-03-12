@@ -7,9 +7,16 @@ import Id from './components/Id'
 function App() {
   return (
     <div className="App">
-      <SayHi/>
+      {/* <SayHi/>
       <Form/>
-      <Id/>
+      <Id name="hatice"
+      country="Turkey">
+        <p> this is a child element </p>
+      </Id>
+      <Id name="June"
+      country="America"/>
+      <Id name="Lina"/>
+      <Id name="Jennet"/> */}
 
     </div>
   );
