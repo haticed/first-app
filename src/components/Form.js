@@ -8,7 +8,7 @@ class Form extends Component{
         return(
             <div>
                 <form>
-                    <h1></h1>
+                    <h1>{this.props.header}</h1>
                     <input placeholder="enter name "/>
                     <button> Send</button>
                 </form>

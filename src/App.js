@@ -7,6 +7,11 @@ import Id from './components/Id'
 function App() {
   return (
     <div className="App">
+      <Form
+      header="user details"
+      />
+
+
       {/* <SayHi/>
       <Form/>
       <Id name="hatice"
