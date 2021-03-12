@@ -1,3 +1,5 @@
+import React from 'react'
+
 import React, { Component } from 'react'
 
 
@@ -7,7 +9,7 @@ class Form extends Component{
             <div>
                 <form>
                     <h1></h1>
-                    <input placeholder="enter name"/>
+                    <input placeholder="enter name "/>
                     <button> Send</button>
                 </form>
             </div>

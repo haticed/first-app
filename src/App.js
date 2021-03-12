@@ -1,10 +1,15 @@
-import React, { Component } from 'react';
-
+import logo from './logo.svg';
+import './App.css';
+import SayHi from './components/SayHi'
+import Form from './components/Form'
+import Id from './components/Id'
 
 function App() {
   return (
     <div className="App">
-      <From baslik />
+      <SayHi/>
+      <Form/>
+      <Id/>
 
     </div>
   );
